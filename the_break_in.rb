@@ -3,14 +3,16 @@ class The_Break_In <Event
 	def enter(decision = nil)
 		super()
 
-		puts "It's late...everyone home is sound asleep \n"
-		puts "You've been awake for hours now, ever since your little sister asked to borrow a movie from your room\n"
-		puts "You begin to finally start falling asleep........\nhuh..."
+		puts "WELCOME TO SPLIT DECISION: Home Invasion\n\n"
+		print "[press enter to begin game]"; gets.chomp; "\n\n"
+		puts "\nIt's late...everyone home is sound asleep \n"
+		puts "You've been awake for hours now, ever since your little sister asked to borrow a movie from your room\n\n"
+		puts "You begin to finally start falling asleep......\n\n...huh..."
 		pause
 		puts "*faint rumbling sound*\n\n WHAT DO YOU DO?"
 		puts "Say something | Keep quiet:"
 		print @prompt; @something = gets.chomp.capitalize
-		puts "HELLO!\n Who could be awake this late at night?" if @something == "Say something"
+		puts "\nHELLO!\n\n Who could be awake this late at night?" if @something =~ /(S|s)ay something/
 		pause
 		puts "*a door faintly closes downstairs*\n\n"
 		puts "Who could possibly be coming home this late?\n\n*checking the alarm clock for the time*\n\n"
