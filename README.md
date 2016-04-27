@@ -1,4 +1,4 @@
-# Split_Decision
+# Split Decision -- Home Invasion
 A ruby game based around decision making where a user must survive a home invasion
 
 To play game: 
