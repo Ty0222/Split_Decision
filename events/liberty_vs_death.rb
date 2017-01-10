@@ -1,4 +1,4 @@
-class Liberty_Vs_Death < Event
+class Liberty_Vs_Death < Events::Base
 
 	def enter(*decisions)
 		@decision1,@decision2,@decision3,@decision4,@decision5 = decisions

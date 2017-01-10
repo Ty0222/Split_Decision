@@ -1,4 +1,4 @@
-class The_Big_Decision < Event
+class The_Big_Decision < Events::Base
 
 	def enter(*decisions)
 		@decision1,@decision2 = decisions

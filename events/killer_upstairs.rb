@@ -1,4 +1,4 @@
-class Killer_Upstairs < Event
+class Killer_Upstairs < Events::Base
 
 	def enter(*decisions)
 		@decision1,@decision2,@decision3 = decisions

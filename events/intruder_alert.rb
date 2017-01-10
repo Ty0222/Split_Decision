@@ -1,4 +1,4 @@
-class Intruder_Alert < Event
+class Intruder_Alert < Events::Base
 
 	def enter(decision)
 		@decision1 = decision

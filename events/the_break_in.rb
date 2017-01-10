@@ -1,4 +1,4 @@
-class The_Break_In <Event
+class The_Break_In <Events::Base
 
 	def enter(decision = nil)
 		super()
